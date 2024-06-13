@@ -8,7 +8,7 @@ function login(){
     event.preventDefault();
     if(emailReg.test(email.value) && passwordReg(password.value)){
         if(password.value === confirm.value){
-
+            window.location.href  = './login.html'
         }else{
             alert("password not match");
         }
