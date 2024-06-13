@@ -17,7 +17,7 @@ body{
     /* border: 1px solid gray; */
     border-radius: 5px;
     width: 400px;
-    height: 350px;
+    height: 400px;
     box-shadow: 0 10px 10px gray, 0 10px 10px gray;
 }
 h3{
@@ -26,7 +26,7 @@ h3{
     padding: 10px;
     
 }
-#exampleInputEmail1, #exampleInputPassword1{
+#exampleInputEmail1, #exampleInputPassword1, #exampleInputPassword2{
     width: 80%;
     margin-left: 10%;
     margin-top: 5%;
