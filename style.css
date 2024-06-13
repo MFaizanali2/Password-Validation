@@ -51,3 +51,41 @@ h3{
 #bottom button{
     padding: 8px 20px;
 }
+
+/* #main{
+    border-radius: 5px;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 10px 10px gray, 0 10px 10px gray;
+}
+h3{
+    font-family: "Roboto";
+    margin: 20px;
+    padding: 10px;
+    
+}
+#exampleInputEmail1, #exampleInputPassword1{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: 1px solid gray;
+}
+#label{
+    margin: 15px;
+    color: #000;
+    font-size: 18px;
+}
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+#bottom a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 18px;
+}
+#bottom button{
+    padding: 8px 20px;
+} */
