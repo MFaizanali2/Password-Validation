@@ -9,6 +9,13 @@ function login(){
     if(emailReg.test(email.value) && passwordReg.test(password.value)){
         if(password.value === confirm.value){
             window.location.href  = './login.html'
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Your have succesfully Login",
+                showConfirmButton: false,
+                timer: 1500
+              });
         }else{
             alert("password not match");
         }
