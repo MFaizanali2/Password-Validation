@@ -6,7 +6,7 @@ let passwordReg = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?
 
 function login(){
     event.preventDefault();
-    if(emailReg.test(email.value) && passwordReg(password.value)){
+    if(emailReg.test(email.value) && passwordReg.test(password.value)){
         if(password.value === confirm.value){
             window.location.href  = './login.html'
         }else{
